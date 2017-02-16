@@ -1,0 +1,33 @@
+header {
+  background-color: $gray;
+  min-height: 180px;
+  .header-contact {
+    margin: 0 auto;
+    width: 160px;
+    height: 110px;
+    margin-top: 40px;
+    p {
+      font-family: $open-sans-regular;
+      font-size: $fs-title-small;
+      color: $gray-txt-d;
+      line-height: 20px;
+      letter-spacing: 2px;
+      &:last-child {
+        margin-top: 10px;;
+        font-family: $league-gothic-r;
+        font-size: $fs-title-middle;
+      }
+    }
+    a{
+      text-decoration: none;
+    }
+    a:hover {
+      display: block;
+      width: 90px;
+      border-bottom: 2px solid $gray-txt-d;
+      //text-decoration: underline; выдает цвет поумолчанию, в зависимости от браузера
+      //-webkit-text-decoration-color: $gray-txt-d; не поддерживается многими браузерами
+    }
+  }
+
+}

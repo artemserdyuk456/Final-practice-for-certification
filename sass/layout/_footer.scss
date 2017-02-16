@@ -1,0 +1,13 @@
+footer {
+  background-color: $gray-d;
+  min-height: 46px;
+  .foot {
+    p{
+      font-family: $open-sans-regular;
+      color: $gray;
+      font-size:$fs-title-little ;
+    }
+    text-align: center;
+    padding-top: 10px;
+  }
+}

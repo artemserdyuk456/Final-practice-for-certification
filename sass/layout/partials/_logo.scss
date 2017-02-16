@@ -1,0 +1,39 @@
+.header-logo {
+  margin: 0 auto;
+  width: 180px;
+  min-height: 100px;
+  margin-top: 40px;
+  .logo {
+    h1{
+      padding-top: 30px;
+      color: $white;
+    }
+    width: 80px;
+    height: 80px;
+    background-color: $gray-d;
+    float: left;
+  }
+  h1,span{
+    display: flex;
+    font-family: $league-gothic-r;
+    font-size: $fs-title-extra;
+    color: $gray-txt-d;
+    margin-left: 10px;
+    padding-left: 10px;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+  h1 {
+    padding-top: 10px;
+  }
+
+  p {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-family:$open-sans-regular ;
+    font-size: $fs-base;
+    color: $gray-txt-d;
+
+  }
+}

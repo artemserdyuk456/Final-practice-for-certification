@@ -1,0 +1,57 @@
+.content-products {
+  background-color:$gray;
+  min-height: 690px;
+  padding-bottom: 40px;
+}
+.di-products {
+  margin-top: 40px;
+}
+.different-products {
+  h3 {
+    font-size: $fs-title-middle;
+    text-transform: capitalize;
+    font-family: $league-gothic-r;
+    color: $gray-d;
+  }
+  margin-top: 20px;
+  margin: 0 auto;
+  width: 253px;
+  height: 260px;
+  background-color: $white;
+  box-shadow: $shadow-black-light-extra;
+  border-bottom: 5px solid $gray-d;
+  .icon-product {
+    margin: 0 auto;
+    width: 200px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/busines.png");
+  }
+  .brand {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .button-content {
+     margin: 0 auto;
+     padding-top: 7px;
+     display: block;
+     width: 74px;
+     height: 34px;
+     border-radius: 3px;
+     background-clip: padding-box;
+     border: $border-black-sm;
+     font-family:$league-gothic-r ;
+     text-transform: uppercase;
+     text-decoration: none;
+     color: $gray-d;
+     font-size: $fs-title-little;
+     text-align: center;
+   }
+  a:hover {
+    background-color: $gray-d;
+    color: $gray;
+  }
+
+
+}

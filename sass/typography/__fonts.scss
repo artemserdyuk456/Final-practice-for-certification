@@ -1,0 +1,40 @@
+$font: "../fonts";
+
+@font-face {
+  font-family: 'LeagueGothicRegular';
+  src: url('#{$font}/LeagueGothicRegular/LeagueGothicRegular.eot');
+  src: url('#{$font}/LeagueGothicRegular/LeagueGothicRegular?#iefix') format('embedded-opentype'),
+  url('#{$font}/LeagueGothicRegular/LeagueGothicRegular.woff') format('woff'),
+  url('#{$font}/LeagueGothicRegular/LeagueGothicRegular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSansLight';
+  src: url('#{$font}/OpenSansLight/OpenSansLight.eot');
+  src: url('#{$font}/OpenSansLight/OpenSansLight?#iefix') format('embedded-opentype'),
+  url('#{$font}/OpenSansLight/OpenSansLight.woff') format('woff'),
+  url('#{$font}/OpenSansLight/OpenSansLight.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('#{$font}/BebasNeue/BebasNeue.eot');
+  src: url('#{$font}/BebasNeue/BebasNeue?#iefix') format('embedded-opentype'),
+  url('#{$font}/BebasNeue/BebasNeue.woff') format('woff'),
+  url('#{$font}/BebasNeue/BebasNeue.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: url('#{$font}/Lobster/Lobster1.4.eot');
+  src: url('#{$font}/Lobster/Lobster1.4.?#iefix') format('embedded-opentype'),
+  url('#{$font}/Lobster/Lobster1.4.woff') format('woff'),
+  url('#{$font}/Lobster/Lobster1.4.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url('#{$font}/OpenSansRegular/OpenSans-Regular.eot');
+  src: url('#{$font}/OpenSansRegular/OpenSans-Regular?#iefix') format('embedded-opentype'),
+  url('#{$font}/OpenSansRegular/OpenSans-Regular.woff') format('woff'),
+  url('#{$font}/OpenSansRegular/OpenSans-Regular.ttf') format('truetype');
+}

@@ -1,0 +1,114 @@
+.slider-content {
+  min-height: 470px;
+  .slider-picture{
+    float: left;
+    width: 530px;
+    height: 450px;
+    background-image: url("../images/work.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .slider-right-content{
+    margin-left: 40px;
+    float: left;
+    margin-top: 70px;
+    max-width: 335px;
+    height: 260px;
+    h1 {
+      font-size: $fs-extra-large;
+      text-transform: capitalize;
+      font-family: $league-gothic-r;
+    }
+    p {
+      line-height: 25px;
+      margin-top: 24px;
+      font-size: $fs-title-small;
+      font-family: $league-gothic-r;
+    }
+
+    .button {
+      color: $gray-d;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-family: $league-gothic-r;
+      margin-top: 20px;
+      display: block;
+      width: 133px;
+      height: 40px;
+      border: $border-black-sm;
+      border-radius: 8px;
+      background-clip: padding-box;
+      font-size: $fs-title-extra;
+      text-align: center;
+      padding-top: 4px;
+    }
+    a:hover{
+      background-color: $gray-d;
+      color: $gray;
+    }
+  }
+}
+.slider-content-two {
+  float: left;
+  width: 530px;
+  height: 450px;
+  background-image: url("../images/atwork.png");
+  background-position: center;
+  background-size: cover;
+}
+.slider-content-three {
+  float: left;
+  width: 530px;
+  height: 450px;
+  background-image: url("../images/towork.png");
+  background-position: center;
+  background-size: cover;
+}
+.slider-content-four {
+  float: left;
+  width: 530px;
+  height: 450px;
+  background-image: url("../images/hardwork.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.container-block .owl-dots {
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+  .owl-dot {
+    display: inline-block;
+    margin-left: 10px;
+    width: 9px;
+    height: 9px;
+    border-radius: 5px;
+    background-clip: padding-box;
+    background-color: #fff;
+    &.active {
+      background-color: $gray-d;
+    }
+  }
+
+}
+.container-block .owl-nav {
+  .owl-prev {
+    position: absolute;
+    top: 170px;
+    left: -70px;
+    font-size: 0px;
+    background-image: url("../images/arrow_left.png");
+    width: 64px;
+    height: 64px;
+  }
+  .owl-next {
+    position: absolute;
+    top: 170px;
+    right: -43px;
+    font-size: 0px;
+    background-image: url("../images/arrow_right.png");
+    width: 64px;
+    height: 64px;
+  }
+
+}
